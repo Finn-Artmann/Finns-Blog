@@ -13,8 +13,8 @@ author:
 ############################
 
 links:
-  - github: https://github.com/Finn-Artmann/finnblog-qubt
-  - link: https://github.com/Finn-Artmann/finnblog-qubt#readme
+  - github: https://github.com/Finn-Artmann/Finns-Blog
+  - link: https://github.com/Finn-Artmann/Finns-Blog#readme
   # - website: 
   # - x-twitter: 
   # - mastodon: 
@@ -64,7 +64,7 @@ links:
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: finnblog-qubt
+title: Finns-Blog
 description: "Site build with Qubt & Hugo"
 images:
   - thumbnail.png
