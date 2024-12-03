@@ -1,4 +1,4 @@
-module github.com/chrede88/qubtTemplate
+module github.com/Finn-Artmann/finnblog-qubt
 
 go 1.23.4
 
