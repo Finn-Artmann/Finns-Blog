@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/hardening-ssh/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/adguard/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/timeshift/</loc>
+    <lastmod>2024-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/post1/</loc>
+    <lastmod>2023-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://Finn-Artmann.github.io/Finns-Blog/about/</loc>
+  </url>
+</urlset>
