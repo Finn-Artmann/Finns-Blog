@@ -15,7 +15,7 @@ tags:
   - snapshots
 authors:
     - Finn Artmann: author.jpeg
-cardImage: photo1_card.jpeg
+cardImage: timeshift_card.jpeg
 ---
 
 # Easy backups on Linux with Timeshift
