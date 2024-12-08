@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/</loc>
+    <loc>https://finn-cloud.de/blog/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/</loc>
+    <loc>https://finn-cloud.de/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/hardening-ssh/</loc>
+    <loc>https://finn-cloud.de/blog/hardening-ssh/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/adguard/</loc>
+    <loc>https://finn-cloud.de/blog/adguard/</loc>
     <lastmod>2024-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/timeshift/</loc>
+    <loc>https://finn-cloud.de/blog/timeshift/</loc>
     <lastmod>2024-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/blog/post1/</loc>
+    <loc>https://finn-cloud.de/blog/post1/</loc>
     <lastmod>2023-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://Finn-Artmann.github.io/Finns-Blog/about/</loc>
+    <loc>https://finn-cloud.de/about/</loc>
   </url>
 </urlset>
