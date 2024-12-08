@@ -13,7 +13,7 @@ tags:
 authors:
   - Finn Artmann: author.jpeg
 featuredImage: images/adguard.png
-cardImage: photo1_card.jpeg
+cardImage: adguard_card.jpeg
 ---
 
 ### Introduction
