@@ -27,7 +27,7 @@ tweaked configurations and installed software can be quite annoying.
 Timeshift is a really nice tool which automates the processs of creating snapshots of your system,
 so you can easily restore it to a previous state.
 
-![Timeshift](../images/timeshift.png)
+{{< figure src="images/timeshift.png" alt="Timeshift screenshot" >}}
 
 ## Installation
 
