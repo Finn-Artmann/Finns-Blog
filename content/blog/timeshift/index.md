@@ -1,5 +1,5 @@
 ---
-title: "Timeshift - AUtomated Backups"
+title: "Timeshift - Automated Backups"
 subtitle: "Easy backups on Linux with Timeshift"
 summary: "Learn how to set up Timeshift on Linux to create automated snapshots of your system for easy recovery in case of issues."
 description: "Learn how to set up Timeshift on Linux to create automated snapshots of your system for easy recovery in case of issues."
