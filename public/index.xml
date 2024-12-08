@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finn&#39;s Blog &gt;</title>
-    <link>https://Finn-Artmann.github.io/Finns-Blog/</link>
+    <link>https://finn-cloud.de/</link>
     <description>Recent content on Finn&#39;s Blog &gt;</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://Finn-Artmann.github.io/Finns-Blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://finn-cloud.de/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hardening SSH login on your VPS</title>
-      <link>https://Finn-Artmann.github.io/Finns-Blog/blog/hardening-ssh/</link>
+      <link>https://finn-cloud.de/blog/hardening-ssh/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://Finn-Artmann.github.io/Finns-Blog/blog/hardening-ssh/</guid>
+      <guid>https://finn-cloud.de/blog/hardening-ssh/</guid>
       <description>Secure your VPS by hardening the SSH login</description>
     </item>
     <item>
       <title>AdGuard Home on a VPS</title>
-      <link>https://Finn-Artmann.github.io/Finns-Blog/blog/adguard/</link>
+      <link>https://finn-cloud.de/blog/adguard/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://Finn-Artmann.github.io/Finns-Blog/blog/adguard/</guid>
+      <guid>https://finn-cloud.de/blog/adguard/</guid>
       <description>Learn how to set up AdGuard Home on a VPS and configure it to work with your router using WireGuard VPN. This setup will ensure that all DNS requests from your home network are routed securely through the VPN to AdGuard Home for filtering.</description>
     </item>
     <item>
       <title>Timeshift - Automated Backups</title>
-      <link>https://Finn-Artmann.github.io/Finns-Blog/blog/timeshift/</link>
+      <link>https://finn-cloud.de/blog/timeshift/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://Finn-Artmann.github.io/Finns-Blog/blog/timeshift/</guid>
+      <guid>https://finn-cloud.de/blog/timeshift/</guid>
       <description>Learn how to set up Timeshift on Linux to create automated snapshots of your system for easy recovery in case of issues.</description>
     </item>
     <item>
       <title>Blog Post with Inline Images</title>
-      <link>https://Finn-Artmann.github.io/Finns-Blog/blog/post1/</link>
+      <link>https://finn-cloud.de/blog/post1/</link>
       <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://Finn-Artmann.github.io/Finns-Blog/blog/post1/</guid>
+      <guid>https://finn-cloud.de/blog/post1/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     <item>
       <title></title>
-      <link>https://Finn-Artmann.github.io/Finns-Blog/about/</link>
+      <link>https://finn-cloud.de/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Finn-Artmann.github.io/Finns-Blog/about/</guid>
+      <guid>https://finn-cloud.de/about/</guid>
       <description>&lt;p&gt;Add your Bio here!&amp;#x1f44d;&lt;/p&gt;</description>
     </item>
   </channel>
