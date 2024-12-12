@@ -9,4 +9,4 @@ bio: true
 icon: ":coffee:"
 ---
 
-Add your Bio here!:+1:
+Hi! I am a Computer Science student in Germany.
