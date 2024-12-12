@@ -30,13 +30,6 @@
       <description>Learn how to set up Timeshift on Linux to create automated snapshots of your system for easy recovery in case of issues.</description>
     </item>
     <item>
-      <title>Blog Post with Inline Images</title>
-      <link>https://finn-cloud.de/blog/post1/</link>
-      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://finn-cloud.de/blog/post1/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
-    </item>
-    <item>
       <title></title>
       <link>https://finn-cloud.de/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
