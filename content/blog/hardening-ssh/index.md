@@ -13,7 +13,7 @@ tags:
     - vps
 authors:
     - Finn Artmann: author.jpeg
-cardImage: photo1_card.jpeg
+cardImage: hardening_ssh_card.webp
 ---
 
 # Hardening SSH login on your VPS
