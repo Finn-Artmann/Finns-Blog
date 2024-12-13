@@ -13,3 +13,8 @@ enableEmoji: true
 disableKinds: ["taxonomy", "term"]
 languageCode: "en-us"
 enableRobotsTXT: true
+
+theme: 
+ - hugo-embed-pdf-shortcode
+
+enableInlineShortcodes: true
