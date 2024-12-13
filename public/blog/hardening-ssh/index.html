@@ -174,38 +174,37 @@
 
 
       <span class="prose prose-slate break-words text-lg text-slate-700 dark:prose-invert prose-pre:max-w-[90vw] dark:text-slate-200 md:prose-pre:max-w-screen-md">
-        <h1 id="hardening-ssh-login-on-your-vps">Hardening SSH login on your VPS</h1>
-<h1 id="introduction">Introduction</h1>
+        <h3 id="introduction">Introduction</h3>
 <p>In this guide, I will walk you through hardening the SSH login on your VPS to secure it against unauthorized access. Typically, attackers target SSH services often via brute-force attacks to gain access to your server. Credit to <a href="https://www.youtube.com/watch?v=F-9KWQByeU0">Dreams of Code</a> as I mainly only compiled the information from this video, but I highly recommend watching it for a more in-depth explanation.</p>
-<h2 id="prequisites">Prequisites</h2>
+<h3 id="prequisites">Prequisites</h3>
 <ul>
 <li>A VPS with SSH access: For this guide we will assume you have a VPS with SSH access reachable via an example IP address <code>1.2.3.4</code>.</li>
 </ul>
-<h2 id="step-1-disable-root-login">Step 1: Disable root login</h2>
-<h3 id="11-login-to-your-vps">1.1 Login to your VPS</h3>
+<h3 id="step-1-disable-root-login">Step 1: Disable root login</h3>
+<h4 id="11-login-to-your-vps">1.1 Login to your VPS</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh root@1.2.3.4
 </span></span></code></pre></div><p>Enter your password provided by your VPS provider when prompted.</p>
-<h3 id="12-add-a-new-non-root-user">1.2 Add a new non-root user</h3>
+<h4 id="12-add-a-new-non-root-user">1.2 Add a new non-root user</h4>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>adduser mynewuser
 </span></span></code></pre></div><p>Set &lsquo;mynewuser&rsquo; as your preferred username and provide a password for the new user when prompted.</p>
-<h3 id="13-add-the-new-user-to-the-sudo-group">1.3 Add the new user to the sudo group</h3>
+<h4 id="13-add-the-new-user-to-the-sudo-group">1.3 Add the new user to the sudo group</h4>
 <p>This step is required to allow the new user to execute commands with root privileges when needed.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>usermod -aG sudo mynewuser
-</span></span></code></pre></div><h3 id="14-test-the-new-user">1.4 Test the new user</h3>
+</span></span></code></pre></div><h4 id="14-test-the-new-user">1.4 Test the new user</h4>
 <p>Test the new user by switching to it and running a command with sudo.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>su - mynewuser
 </span></span><span style="display:flex;"><span>sudo ls /
-</span></span></code></pre></div><h2 id="step-2-disable-password-authentication">Step 2: Disable password authentication</h2>
-<h3 id="21-set-up-ssh-key-based-authentication">2.1 Set up SSH key-based authentication</h3>
+</span></span></code></pre></div><h3 id="step-2-disable-password-authentication">Step 2: Disable password authentication</h3>
+<h4 id="21-set-up-ssh-key-based-authentication">2.1 Set up SSH key-based authentication</h4>
 <p>Exit the vps and make sure your new user has a copy of your ssh key.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>exit
 </span></span></code></pre></div><p>On your local machine, copy your public ssh key to the new user on the vps.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh-copy-id mynewuser@1.2.3.4
-</span></span></code></pre></div><h3 id="22-test-key-based-authentication">2.2 Test key-based authentication</h3>
+</span></span></code></pre></div><h4 id="22-test-key-based-authentication">2.2 Test key-based authentication</h4>
 <p>Try to login to your VPS with the new user. The login should not prompt you for a password.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh mynewuser@1.2.3.4
-</span></span></code></pre></div><h2 id="step-3-disable-password-authentication">Step 3: Disable password authentication</h2>
-<h3 id="31-modify-the-ssh-configuration-file-to-disable-password-authentication">3.1 Modify the SSH configuration file to disable password authentication</h3>
+</span></span></code></pre></div><h3 id="step-3-disable-password-authentication">Step 3: Disable password authentication</h3>
+<h4 id="31-modify-the-ssh-configuration-file-to-disable-password-authentication">3.1 Modify the SSH configuration file to disable password authentication</h4>
 <p>Modify the SSH configuration file to disable password authentication.
 Log back into your VPS as the new user and open the SSH configuration file in a text editor.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo vi /etc/ssh/sshd_config
@@ -216,14 +215,14 @@ Log back into your VPS as the new user and open the SSH configuration file in a 
 </span></span></code></pre></div><p>Disable PAM authentication by uncommenting the following line and changing the value to <code>no</code>.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>UsePAM no
 </span></span></code></pre></div><p>Depending on your VPS provider, there might be additional configurations files for password authentication that you need to modify.</p>
-<h3 id="32-restart-the-ssh-service">3.2 Restart the SSH service</h3>
+<h4 id="32-restart-the-ssh-service">3.2 Restart the SSH service</h4>
 <p>Reload the SSH service to apply the changes.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl reload sshd
-</span></span></code></pre></div><h2 id="33-test-the-changes">3.3 Test the changes</h2>
+</span></span></code></pre></div><h3 id="33-test-the-changes">3.3 Test the changes</h3>
 <p>Exit the VPS and try to log back in with the root user. The login should fail and output a message indicating &lsquo;Permission denied&rsquo;.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh root@1.2.3.4
 </span></span><span style="display:flex;"><span>Output: root@1.2.3.4: Permission denied <span style="color:#f92672">(</span>publickey<span style="color:#f92672">)</span>.
-</span></span></code></pre></div><h2 id="step-4-configure-ssh-port-optional">Step 4: Configure SSH port (optional)</h2>
+</span></span></code></pre></div><h3 id="step-4-configure-ssh-port-optional">Step 4: Configure SSH port (optional)</h3>
 <p>An additional step you might consider is changing the default SSH port to a custom port to reduce the number of automated attacks on your server.
 Keep in mind to take note of the custom port as other services you configure might need to know it.</p>
 <p>This is especially important when you configure a firewall on your VPS, as you need to allow the custom port for SSH access. Whether or not you change the port, it is crucial to configure a firewall to allow traffic to the SSH port (the default porrt 22 or your custom port), otherwise you will have trouble logging back into your VPS!</p>

@@ -18,7 +18,6 @@ authors:
 cardImage: timeshift_card.jpeg
 ---
 
-# Easy backups on Linux with Timeshift
 
 As someone who likes to tinker with their system, sometimes things can go wrong.
 While setting a fresh install itself does not have to take much time, losing all carfully
