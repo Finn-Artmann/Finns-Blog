@@ -29,5 +29,12 @@
       <guid>https://finn-cloud.de/blog/timeshift/</guid>
       <description>Learn how to set up Timeshift on Linux to create automated snapshots of your system for easy recovery in case of issues.</description>
     </item>
+    <item>
+      <title>Virtualization - Embedded Systems</title>
+      <link>https://finn-cloud.de/blog/virtualization-report/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://finn-cloud.de/blog/virtualization-report/</guid>
+      <description>Virtualization solutions within embedded systems play a crucial role, offering benefits in varied industries including automotive, aerospace and IoT. The contribution of this work is an overview of the current state-of-the-art, identifying open questions and outlining new developments. The methodology involves a systematic review of recent literature, which is categorized based on content and keywords. Central findings from existing studies are summarized according to different virtualization approaches and enhanced with new insights from the reviewed papers, allowing for future exploration of presented research directions.</description>
+    </item>
   </channel>
 </rss>
