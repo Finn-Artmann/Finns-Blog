@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Finn&#39;s Blog &gt;</title>
-    <link>https://finn-cloud.de/blog/</link>
+    <link>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/</link>
     <description>Recent content in Blog on Finn&#39;s Blog &gt;</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://finn-cloud.de/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Finn-Artmann/Finns-Blog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hardening SSH login on your VPS</title>
-      <link>https://finn-cloud.de/blog/hardening-ssh/</link>
+      <link>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/hardening-ssh/</link>
       <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://finn-cloud.de/blog/hardening-ssh/</guid>
+      <guid>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/hardening-ssh/</guid>
       <description>Secure your VPS by hardening the SSH login</description>
     </item>
     <item>
       <title>AdGuard Home on a VPS</title>
-      <link>https://finn-cloud.de/blog/adguard/</link>
+      <link>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/adguard/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://finn-cloud.de/blog/adguard/</guid>
+      <guid>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/adguard/</guid>
       <description>Learn how to set up AdGuard Home on a VPS and configure it to work with your router using WireGuard VPN. This setup will ensure that all DNS requests from your home network are routed securely through the VPN to AdGuard Home for filtering.</description>
     </item>
     <item>
       <title>Timeshift - Automated Backups</title>
-      <link>https://finn-cloud.de/blog/timeshift/</link>
+      <link>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/timeshift/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://finn-cloud.de/blog/timeshift/</guid>
+      <guid>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/timeshift/</guid>
       <description>Learn how to set up Timeshift on Linux to create automated snapshots of your system for easy recovery in case of issues.</description>
     </item>
     <item>
       <title>Virtualization - Embedded Systems</title>
-      <link>https://finn-cloud.de/blog/virtualization-report/</link>
+      <link>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/virtualization-report/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://finn-cloud.de/blog/virtualization-report/</guid>
+      <guid>http://localhost:1313/Finn-Artmann/Finns-Blog/blog/virtualization-report/</guid>
       <description>Virtualization solutions within embedded systems play a crucial role, offering benefits in varied industries including automotive, aerospace and IoT. The contribution of this work is an overview of the current state-of-the-art, identifying open questions and outlining new developments. The methodology involves a systematic review of recent literature, which is categorized based on content and keywords. Central findings from existing studies are summarized according to different virtualization approaches and enhanced with new insights from the reviewed papers, allowing for future exploration of presented research directions.</description>
     </item>
   </channel>
